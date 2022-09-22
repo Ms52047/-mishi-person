@@ -1,7 +1,7 @@
 ---
 hero:
   title: person
-  desc: person site example
+  desc: person  site example
   actions:
     - text: Getting Started
       link: /components
