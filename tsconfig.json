@@ -6,6 +6,9 @@
     "jsx": "react",
     "esModuleInterop": true,
     "types": ["jest"],
+    "paths": {
+      "@@/*": [".dumi/tmp/*"]
+    },
     "strict": true,
     "skipLibCheck": true,
     "declaration": true

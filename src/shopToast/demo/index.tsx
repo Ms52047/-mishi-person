@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import { ToastUI } from '@mishi-/person';
 
 interface DemoProps {}
 

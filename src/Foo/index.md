@@ -1,10 +1,7 @@
 ---
-title: AddressPicker
-group:
-  title: AddressPicker111
+title: Foo
 nav:
   title: 组件
-  path: /components
   order: 1
 ---
 

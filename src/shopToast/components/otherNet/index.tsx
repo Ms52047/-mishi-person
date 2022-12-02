@@ -2,10 +2,10 @@
  * 弹窗组件
  * @author lx
  */
-import React, { FC, useState, useEffect } from 'react';
-import styles from './index.less';
-import { CenterPopup } from 'antd-mobile-v5';
 import { BjMobileUrl } from '@/services/requestUrl';
+import { CenterPopup } from 'antd-mobile-v5';
+import React, { FC, useState } from 'react';
+import styles from './index.less';
 export interface OtherNet {
   onClose: () => void;
   unmount: () => void;

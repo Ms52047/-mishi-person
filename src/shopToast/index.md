@@ -1,11 +1,8 @@
 ---
 title: ToastUI
-group:
-  title: ToastUI
 nav:
   title: 组件
-  path: /components
-  order: 1
+  order: 11
 ---
 
 用来作为 Toast 展示自定义组件的 api，无自动关闭的功能，需要在弹出的自己的组件当中进行调用方法进行组件的卸载 props 会暴露卸载组件，即关闭自身弹窗的方法。

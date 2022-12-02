@@ -2,9 +2,9 @@ import classnames from 'classnames';
 import * as React from 'react';
 import Notification from 'rmc-notification';
 // import Icon from '../icon';
-import style from './index.less';
-import { OtherNet, Guide } from './components';
+import { Guide, OtherNet } from './components';
 import { show } from './components/show';
+import style from './index.less';
 
 const SHORT = 3;
 const Nodes: { [key: string]: string | Function | React.ReactNode } = {

@@ -1,7 +1,5 @@
-import React, { ReactNode, useState } from 'react';
-import { Modal } from 'antd-mobile-v5';
 import { renderImperatively } from '@/utils/renderImRef';
-import { Target } from 'ahooks/lib/useKeyPress';
+import React, { ReactNode } from 'react';
 export type ModalProps = Pick<
   any,
   | 'afterClose'

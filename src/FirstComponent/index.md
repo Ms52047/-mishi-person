@@ -1,13 +1,11 @@
 ---
-title: ExtraInput
-group:
-  title: ExtraInput
+title: FirstComponent
 nav:
   title: 组件
-  path: /components
+  order: 11
 ---
 
-# ExtraInput
+# FirstComponent
 
 ## 代码演示
 

@@ -1,11 +1,10 @@
-import React, { FC, useState, useEffect } from 'react';
-import { connect, ConnectProps, plusModelState } from 'alita';
-import Static from './static';
-import { useSessionStorageState } from 'ahooks';
-import styles from './index.less';
 import jumpBtn from '@/assets/img/yindao/jumpBtn.png';
-import { getUserInfo } from '@/utils/tool';
 import { memberUpdate } from '@/services/myServices';
+import { useSessionStorageState } from 'ahooks';
+import { ConnectProps, plusModelState } from 'alita';
+import React, { FC, useEffect, useState } from 'react';
+import styles from './index.less';
+import Static from './static';
 
 interface GuideProps extends ConnectProps {
   plus?: plusModelState;
