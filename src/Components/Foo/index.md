@@ -10,7 +10,7 @@ nav:
 
 # AddressPicker
 
-> 注意：`AddressPicker` 的 `formsValues` **不建议放在页面上直接定义变量**，建议放在使用 `useState` 或者类似 `dva` 的仓库进行存储。因为 `data` 地址数据源改变时，会渲染整个 JSON 数据，`formsValues` 会取旧值进行渲染，导致页面数据展示错误。可看演示 demo。
+> 注意：`AddressPicker` 的 `formsValues` **不建议放在页面上直接定义变量**，建议,放在使用 `useState` 或者类似 `dva` 的仓库进行存储。因为 `data` 地址数据源改变时，会渲染整个 JSON 数据，`formsValues` 会取旧值进行渲染，导致页面数据展示错误。可看演示 demo。
 
 ## 代码演示
 
